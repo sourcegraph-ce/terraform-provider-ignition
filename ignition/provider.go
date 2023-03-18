@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/coreos/ignition/config/validate/report"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
